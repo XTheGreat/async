@@ -1,4 +1,4 @@
-module github.com/XTheGreat/async
+module github.com/xthegreat/async
 
 go 1.15
 
