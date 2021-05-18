@@ -98,7 +98,7 @@ func (th *Threading) done() bool {
 	case <-th.sigterm:
 		return true
 	default:
-		return th.pos > th.limit
+		return th.pos >= th.limit
 	}
 }
 
